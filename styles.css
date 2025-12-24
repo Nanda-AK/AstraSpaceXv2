@@ -568,6 +568,18 @@ footer p {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgba(10, 14, 39, 0.98);
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 2rem;
+        gap: 1rem;
+    }
+
+    .nav-links.show {
+        display: flex;
     }
 
     .menu-toggle {
