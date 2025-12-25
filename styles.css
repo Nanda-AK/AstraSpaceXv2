@@ -133,8 +133,8 @@ nav {
 .hero {
     margin-top: 80px;
     min-height: 90vh;
-    background: url('https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/6cc7beab-460d-437e-9fd6-102a87dc7c26') center/cover;
-    background-attachment: fixed;
+    background: url('images/hero-animation.gif') center/cover no-repeat;
+    background-attachment: fixed;   /* you can remove this if mobile feels jittery */
     position: relative;
     display: flex;
     align-items: center;
