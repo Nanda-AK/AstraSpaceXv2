@@ -324,11 +324,23 @@ nav {
     background: linear-gradient(135deg, rgba(0, 102, 255, 0.05) 0%, rgba(255, 165, 0, 0.05) 100%);
 }
 .mission-card {
-    background: url('images/mission-1050.jpg') center/cover no-repeat;
+    background: url('images/about/our_mission.png') center/cover no-repeat;
 }
 
-.vision-card {
-    background: url('images/vision-1050.jpg') center/cover no-repeat;
+.safety-card {
+    background: url('images/about/safety_first.png') center/cover no-repeat;
+}
+
+.tech-card {
+    background: url('images/about/technical_excellence.png') center/cover no-repeat;
+}
+
+.reliability-card {
+    background: url('images/about/reliability.png') center/cover no-repeat;
+}
+
+.global-card {
+    background: url('images/about/global_responsibility.png') center/cover no-repeat;
 }
 .mv-grid {
     display: grid;
