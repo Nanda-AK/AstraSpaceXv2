@@ -111,7 +111,7 @@ nav {
 .page-header {
     margin-top: 100px;
     padding: 80px 2rem;
-    background: url('images/About.png') center/cover no-repeat;
+    background: url('images/about.png') center/cover no-repeat;
     text-align: center;
     border-bottom: 1px solid rgba(0, 102, 255, 0.2);
     position: relative;
