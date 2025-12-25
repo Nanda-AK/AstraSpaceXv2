@@ -565,6 +565,14 @@ footer p {
     animation: fadeInUp 0.8s ease-out;
 }
 
+/* Grid layout for Why Choose section on desktop */
+.why-choose .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero {
@@ -616,7 +624,17 @@ footer p {
         grid-template-columns: 1fr;
     }
 
-    .why-choose .container {
+        .why-choose .container {
         grid-template-columns: 1fr;
     }
+
+    /* make image come first, text second on mobile */
+    .why-choose .why-image {
+        order: 1;
+    }
+
+    .why-choose .container > div:not(.why-image) {
+        order: 2;
+    }
+
 }
