@@ -381,6 +381,7 @@ nav {
 .mc-card p {
     position: relative;
     z-index: 1;
+    color: #0a0e27;
 }
 .value-card h4 {
     color: var(--accent-gold);   /* orange */
@@ -391,6 +392,7 @@ nav {
 .value-card p {
     position: relative;
     z-index: 1;
+    color: #0a0e27;
 }
 
 /* Values Grid */
