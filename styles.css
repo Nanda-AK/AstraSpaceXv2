@@ -378,7 +378,10 @@ nav {
     margin-bottom: 1rem;
     font-weight: 700;
 }
-.mv-card p,
+.mc-card p {
+    position: relative;
+    z-index: 1;
+}
 .value-card h4 {
     color: var(--accent-gold);   /* orange */
     font-size: 1.2rem;
