@@ -521,9 +521,7 @@ nav {
 }
 
 .team-section-header {
-    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-gold) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--accent-gold);
     padding: 1.5rem;
     text-align: center;
     font-size: 1.3rem;
