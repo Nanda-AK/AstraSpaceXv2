@@ -372,9 +372,19 @@ nav {
     z-index: 0;
 }
 
-.mv-card h3,
+.mv-card h3 {
+    color: var(--accent-gold);   /* orange */
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
 .mv-card p,
-.value-card h4,
+.value-card h4 {
+    color: var(--accent-gold);   /* orange */
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+},
 .value-card p {
     position: relative;
     z-index: 1;
