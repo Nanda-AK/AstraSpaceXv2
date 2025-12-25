@@ -581,7 +581,12 @@ footer p {
     gap: 3rem;
     align-items: center;
 }
-
+.mv-icon {
+    width: 80px;       /* good on desktop */
+    height: 80px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
 /* Responsive */
 @media (max-width: 768px) {
     .hero {
@@ -645,5 +650,10 @@ footer p {
     .why-choose .container > div:not(.why-image) {
         order: 2;
     }
+        .mv-icon {
+        width: 64px;   /* slightly smaller on mobile */
+        height: 64px;
+    }
+}
 
 }
